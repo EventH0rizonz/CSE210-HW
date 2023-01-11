@@ -11,7 +11,7 @@ class Program
             Console.Write("Enter a positive number or type 0 to end: ");
             string userResponse = Console.ReadLine();
             userImput =int.Parse(userResponse);
-            if (userImput !=0);
+            if (userImput !=0)
             {
                 numbers.Add(userImput);
             }
